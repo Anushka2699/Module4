@@ -21,10 +21,10 @@ names[9]="jim";
 // }
 
 for (var i=0; i<names.length; i++){
-    if(names[i].charAt(0)==='J'|| names[i].chartAt(0)==='j'){
-        console.log("goodbye"+names[i])
+    if(names[i].charAt(0)==='J'|| names[i].charAt(0)==='j'){
+        console.log("goodbye "+names[i])
     }
     else{
-        console.log("hello"+names[i])
+        console.log("hello "+names[i])
     }
 }
